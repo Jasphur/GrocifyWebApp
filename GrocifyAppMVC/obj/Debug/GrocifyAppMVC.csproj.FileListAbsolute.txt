@@ -1,0 +1,246 @@
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\ApplicationInsights.config
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\GrocifyAppMVC.dll.config
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\GrocifyAppMVC.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\GrocifyAppMVC.pdb
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\csc.exe
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\csc.exe.config
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\csc.rsp
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\csi.exe
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\csi.exe.config
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\csi.rsp
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.AppContext.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Console.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.IO.Compression.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.IO.Pipes.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.Claims.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.ValueTuple.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\vbc.exe
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\vbc.exe.config
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\vbc.rsp
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\VBCSCompiler.exe
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Antlr3.Runtime.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\EntityFramework.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\EntityFramework.SqlServer.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.Web.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Newtonsoft.Json.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Owin.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Helpers.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Mvc.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Optimization.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Razor.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.WebPages.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.WebPages.Razor.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\WebGrease.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Helpers.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Mvc.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Optimization.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Razor.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.WebPages.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.WebPages.Razor.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Newtonsoft.Json.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Antlr3.Runtime.pdb
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\EntityFramework.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\EntityFramework.SqlServer.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.Web.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.csproj.CoreCompileInputs.cache
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.csproj.CopyComplete
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.dll
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.pdb
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.csprojAssemblyReference.cache
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.Migrations.First.resources
+C:\Projects\Cases ITPH Grocify\GrocifyAppMVCSolution\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.csproj.GenerateResource.cache
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\ApplicationInsights.config
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\GrocifyAppMVC.dll.config
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\GrocifyAppMVC.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\GrocifyAppMVC.pdb
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\csc.exe
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\csc.exe.config
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\csc.rsp
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\csi.exe
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\csi.exe.config
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\csi.rsp
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.AppContext.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Collections.Immutable.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Console.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.IO.Compression.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.IO.FileSystem.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.IO.Pipes.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Reflection.Metadata.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.AccessControl.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.Claims.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.ValueTuple.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Xml.XPath.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\vbc.exe
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\vbc.exe.config
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\vbc.rsp
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\VBCSCompiler.exe
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\roslyn\VBCSCompiler.exe.config
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Antlr3.Runtime.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\EntityFramework.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\EntityFramework.SqlServer.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.DependencyCollector.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.Web.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.WindowsServer.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.ApplicationInsights.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Google.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Web.Infrastructure.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Newtonsoft.Json.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Owin.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Helpers.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Mvc.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Optimization.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Razor.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.WebPages.Deployment.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.WebPages.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.WebPages.Razor.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\WebGrease.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Helpers.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Mvc.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Optimization.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.Razor.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.WebPages.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.WebPages.Deployment.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Web.WebPages.Razor.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Newtonsoft.Json.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Antlr3.Runtime.pdb
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\EntityFramework.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\EntityFramework.SqlServer.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Google.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.DependencyCollector.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.WindowsServer.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.AI.Web.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.csproj.CoreCompileInputs.cache
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.csproj.CopyComplete
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.pdb
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\PagedList.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\PagedList.Mvc.dll
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\PagedList.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\bin\PagedList.Mvc.xml
+C:\Projects\Cases ITPH Grocify MVC\GrocifyAppMVCSolution\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.csprojAssemblyReference.cache

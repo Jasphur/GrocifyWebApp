@@ -1,0 +1,52 @@
+﻿@model GrocifyAppMVC.Models.IndexViewModel
+@{
+	ViewBag.Title = "Manage";
+}
+
+<h2>Mijn gegevens</h2>
+
+<p class="text-success">@ViewBag.StatusMessage</p>
+<div>
+	<h4>Wijzig hier je gegevens</h4>
+	<hr />
+	<dl class="dl-horizontal">
+		<dt>Gebruikersnaam:</dt>
+		<dd>
+			@Html.DisplayName(User.Identity.Name)
+		</dd>
+
+		<dt>Emailadres:</dt>
+        <dd>
+            @Html.DisplayFor(model => model.ShowEmail)
+        </dd>
+	</dl>
+	<hr />
+	<dl class="dl-horizontal">
+		<dt>Wijzig je emailadres:</dt>
+		<dd>
+			[
+			@if (Model.HasEmail)
+			{
+				@Html.ActionLink("Wijzig emailadres", "ChangeEmail")
+			}
+			else
+			{
+				@Html.ActionLink("Nieuw emailadres", "SetEmail")
+			}
+			]
+		</dd>
+		<dt>Wijzig je wachtwoord:</dt>
+		<dd>
+			[
+			@if (Model.HasPassword)
+			{
+				@Html.ActionLink("Wijzig wachtwoord", "ChangePassword")
+			}
+			else
+			{
+				@Html.ActionLink("Nieuw wachtwoord", "SetPassword")
+			}
+			]
+		</dd>
+	</dl>
+</div>

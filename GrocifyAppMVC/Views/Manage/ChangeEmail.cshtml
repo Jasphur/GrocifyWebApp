@@ -1,0 +1,45 @@
+﻿@model GrocifyAppMVC.Models.ChangeEmailViewModel
+@{
+	ViewBag.Title = "Change Email";
+}
+
+<h2>Wijzig je emailadres</h2>
+
+@using (Html.BeginForm("ChangeEmail", "Manage", FormMethod.Post, new { @class = "form-horizontal", role = "form" }))
+{
+	@Html.AntiForgeryToken()
+	<h4>Verander je emailadres</h4>
+	<hr />
+	@Html.ValidationSummary(true, "", new { @class = "text-danger" })
+	<div class="form-group">
+		@*@Html.LabelFor(m => m.OldEmail, new { @class = "col-md-2 control-label" })
+			<div class="col-md-10">
+				@Html.TextBoxFor(m => m.OldEmail, new { @class = "form-control" })
+			</div>*@
+	</div>
+	<div class="form-group">
+		@Html.LabelFor(m => m.NewEmail, new { @class = "col-md-2 control-label" })
+		<div class="col-md-10">
+			@Html.TextBoxFor(m => m.NewEmail, new { @class = "form-control" })
+			@Html.ValidationMessageFor(m => m.NewEmail, "", new { @class = "text-danger" })
+		</div>
+	</div>
+	<div class="form-group">
+		@Html.LabelFor(m => m.ConfirmEmail, new { @class = "col-md-2 control-label" })
+		<div class="col-md-10">
+			@Html.TextBoxFor(m => m.ConfirmEmail, new { @class = "form-control" })
+			@Html.ValidationMessageFor(m => m.ConfirmEmail, "", new { @class = "text-danger" })
+		</div>
+	</div>
+	<div class="form-group">
+		<div class="col-md-offset-2 col-md-10">
+			<input type="submit" value="Wijzig email" class="btn btn-default" />
+		</div>
+	</div>
+}
+@section Scripts {
+	@Scripts.Render("~/bundles/jqueryval")
+}
+<div>
+	@Html.ActionLink("Terug naar overzicht", "Index")
+</div>

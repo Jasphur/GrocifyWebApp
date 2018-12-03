@@ -1,0 +1,9 @@
+﻿@model GrocifyAppMVC.Models.ChosenUser
+
+
+@{
+    ViewBag.Title = "UserNames";
+}
+
+<h2>UserNames</h2>
+@Html.DropDownListFor(x => x.UserId, ViewBag.UserNameDrop as IEnumerable<SelectListItem>, new { @class = "form-control" })

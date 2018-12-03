@@ -1,0 +1,56 @@
+﻿@*@model IEnumerable<GrocifyAppMVC.Models.Product>*@
+@model PagedList.IPagedList<GrocifyAppMVC.Models.CollectiveListModel>
+@using PagedList.Mvc;
+
+
+
+@{
+	ViewBag.Title = "Index";
+}
+
+<h2>Publieke lijst</h2>
+
+<table class="table">
+	<tr>
+		<th>
+			@Html.ActionLink("Productnaam", "Index", new { sortOrder = ViewBag.ProductNameSortParm })
+		</th>
+		<th>
+			@Html.ActionLink("Hoeveelheid", "Index", new { sortOrder = ViewBag.AmountSortParm })
+		</th>
+		<th>
+			@Html.ActionLink("Naam", "Index", new { sortOrder = ViewBag.NameSortParm })
+		</th>
+		<th></th>
+	</tr>
+
+	@foreach (var item in Model)
+	{
+	<tr>
+		<td>
+			@Html.DisplayFor(modelItem => item.ProductName)
+		</td>
+		<td>
+			@Html.DisplayFor(modelItem => item.Amount)
+		</td>
+		<td>
+			@Html.DisplayFor(modelItem => item.Name)
+		</td>
+		<td>
+			@Html.DisplayFor(modelItem => item.BoughtBy)
+		</td>
+		@*<td>
+			<input type="button" onclick="Javascript:ChangeBoughtStatus()" value="Gehaald" class="CollectiveListController" />
+		</td>*@
+
+		<td>
+			@Html.ActionLink("Wijzig", "Edit", new { id = item.Id})
+		</td>
+	</tr>
+	}
+
+</table>
+
+Pagina @(Model.PageCount < Model.PageNumber ? 0 : Model.PageNumber) van @Model.PageCount
+
+@Html.PagedListPager(Model, page => Url.Action("Index", new { page = page }), PagedListRenderOptions.OnlyShowFivePagesAtATime)

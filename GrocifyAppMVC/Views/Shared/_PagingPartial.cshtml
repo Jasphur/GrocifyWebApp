@@ -1,0 +1,12 @@
+﻿<div>
+    <ul class="pager">
+        @if (Model.PageNumber > 1)
+        {
+            <li>@Html.ActionLink("<", "Index", new { pageNumber = Model.PageNumber - 1 })</li>
+        }
+        @if (Model.PageNumber < Model.Pagecount)
+        {
+            <li>@Html.ActionLink(">", "Index", new { pageNumber = Model.PageNumber + 1 })</li>
+        }
+    </ul>
+</div>

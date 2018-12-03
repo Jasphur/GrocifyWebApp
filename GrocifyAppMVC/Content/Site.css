@@ -1,0 +1,129 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+    .body-content h2 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 30px;
+    }
+
+    .body-content h4 {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: bold;
+        color: #1db954;
+    }
+
+
+/*html input[disabled] {
+    font-family: 'Open Sans', sans-serif;
+    color: #808080;
+    border-color: #ffffff;
+    background-color: #ffffff;
+}*/
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.container .jumbotron, .container-fluid .jumbotron {
+    padding-top: 125px;
+    padding-right: 60px;
+    padding-left: 60px;
+}
+
+.jumbotron {
+    background-image: url(http://www.rivieramayagroceries.com/wp-content/uploads/2018/01/gro.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    color: inherit;
+    background-color: #ffffff;
+}
+
+    .jumbotron h1 {
+        font-family: 'Permanent Marker', cursive;
+        font-size: 90px;
+        text-align: center;
+        color: #ffffff;
+        text-shadow: 0 0 10px #000000;
+    }
+
+    .jumbotron p {
+        font-family: 'Open Sans', sans-serif;
+        color: #fff;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 0 0 5px #000;
+    }
+
+.navbar-inverse {
+    background-image: linear-gradient(to right, #1db954, #106d2c);
+    border-color: #ffffff;
+}
+
+    /*.navbar-inverse .navbar-nav > li > a {
+        font-family: 'Open Sans', sans-serif;
+        color: #ffffff;
+       
+    }*/
+
+    .navbar-inverse .navbar-brand {
+        font-family: 'Permanent Marker', cursive;
+        /*color: #ffffff;*/
+        
+    }
+
+/*.navbar-right {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    color:#808080;
+    margin-right: -15px;
+}*/
+
+.btn-lg, .btn-group-lg > .btn {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    padding: 10px 16px;
+    font-size: 14px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+}
+
+    .btn-lg a {
+        color: #149d44;
+        text-decoration: underline;
+    }
+
+
+body {
+    font-family: 'Open Sans', sans-serif;   
+    color: #808080;
+}
+
+
+th {
+    font-family: 'Permanent Marker', cursive;
+    color: #1db954;
+    text-align: left;
+    font-size: 20px;
+}
+
+.row h2 {
+    font-family: 'Permanent Marker', cursive;
+    color: #1db954;
+    font-size: 45px;
+}
