@@ -47,6 +47,14 @@
     </dl>
 
     <div class="form-group">
+        @Html.LabelFor(model => model.Debt, htmlAttributes: new { @class = "control-label col-md-2" })
+        <div class="col-md-10">
+            @Html.EditorFor(model => model.Debt, new { htmlAttributes = new { @class = "form-control", @min = "1", @max = "20" } })
+            @Html.ValidationMessageFor(model => model.Debt, "", new { @class = "text-danger" })
+        </div>
+    </div>
+
+    <div class="form-group">
         @Html.LabelFor(model => model.Status, htmlAttributes: new { @class = "control-label col-md-2" })
         <div class="col-md-10">
             @Html.EnumDropDownListFor(model => model.Status, htmlAttributes: new { @class = "form-control" })

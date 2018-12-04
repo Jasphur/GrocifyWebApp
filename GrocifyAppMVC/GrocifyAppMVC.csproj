@@ -214,6 +214,10 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MyListListController.cs" />
     <Compile Include="Extensions\EnumExtension.cs" />
+    <Compile Include="Migrations\201812040942104_Debt.cs" />
+    <Compile Include="Migrations\201812040942104_Debt.Designer.cs">
+      <DependentUpon>201812040942104_Debt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\HistoryProductsModel.cs" />
     <Compile Include="Models\ErrorMessages.cs" />
@@ -337,6 +341,11 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201812040942104_Debt.resx">
+      <DependentUpon>201812040942104_Debt.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

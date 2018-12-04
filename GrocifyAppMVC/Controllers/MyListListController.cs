@@ -24,6 +24,7 @@ namespace GrocifyAppMVC.Controllers
 			ViewBag.AmountSortParm = sortOrder == "Amount" ? "amount_desc" : "Amount";
 			ViewBag.StatusSortParm = sortOrder == "Status" ? "status_desc" : "Status";
 			ViewBag.BoughtBySortParm = sortOrder == "BoughtBy" ? "boughtBy_desc" : "BoughtBy";
+			ViewBag.BoughtBySortParm = sortOrder == "Debt" ? "debt_desc" : "Debt";
 
 			if (searchString != null)
 			{
@@ -46,7 +47,8 @@ namespace GrocifyAppMVC.Controllers
 					Amount = s.Amount,
 					Name = s.Name,
 					Status = s.Status,
-					BoughtBy = s.BoughtBy
+					BoughtBy = s.BoughtBy,
+                    Debt = s.Debt
 				});
 
 			if (!String.IsNullOrEmpty(searchString))
@@ -76,7 +78,13 @@ namespace GrocifyAppMVC.Controllers
 				case "boughtBy_desc":
 					Model = Model.OrderByDescending(s => s.BoughtBy);
 					break;
-				default:
+                case "Debt":
+                    Model = Model.OrderBy(s => s.Debt);
+                    break;
+                case "debt_desc":
+                    Model = Model.OrderByDescending(s => s.Debt);
+                    break;
+                default:
 					Model = Model.OrderBy(s => s.ProductName);
 					break;
 			}
@@ -118,16 +126,6 @@ namespace GrocifyAppMVC.Controllers
 		[ValidateAntiForgeryToken]
 		public ActionResult Create([Bind(Include = "Id,ProductName,Amount,Status,Name,BoughtBy")] Product product)
 		{
-			// Archived enum uit de dropdown halen
-			//var selectList = Enum.GetValues(typeof(Status))
-			//           .Cast<Status>()
-			//           .Where(e => e != Status.Archived)
-			//           .Select(e => new SelectListItem
-			//           {
-			//               Value = ((int)e).ToString(),
-			//               Text = e.ToString()
-			//           });
-
 			if (ModelState.IsValid)
 			{
 				product.Name = User.Identity.Name;

@@ -1,5 +1,4 @@
-﻿@*@model IEnumerable<MyListModel>*@
-@model PagedList.IPagedList<GrocifyAppMVC.Models.MyListModel>
+﻿@model PagedList.IPagedList<GrocifyAppMVC.Models.MyListModel>
 @using PagedList.Mvc;
 
 @{ 
@@ -12,44 +11,50 @@
 	@Html.ActionLink("Zet hier nieuw product in je lijst", "Create")
 </p>
 <table class="table">
-	<tr>
-		<th>
-			@Html.ActionLink("Productnaam", "Index", new { sortOrder = ViewBag.NameSortParm })
-		</th>
-		<th>
-			@Html.ActionLink("Hoeveelheid", "Index", new { sortOrder = ViewBag.AmountSortParm })
-		</th>
-		<th>
-			@Html.ActionLink("Status", "Index", new { sortOrder = ViewBag.StatusSortParm })
-		</th>
-		<th>
-			@Html.ActionLink("Gehaald door", "Index", new { sortOrder = ViewBag.StatusSortParm })
-		</th>
-		<th></th>
-	</tr>
+    <tr>
+        <th>
+            @Html.ActionLink("Productnaam", "Index", new { sortOrder = ViewBag.NameSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("Hoeveelheid", "Index", new { sortOrder = ViewBag.AmountSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("Status", "Index", new { sortOrder = ViewBag.StatusSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("Gehaald door", "Index", new { sortOrder = ViewBag.StatusSortParm })
+        </th>
+        <th>
+            @Html.ActionLink("Schuldbedrag", "Index", new { sortOrder = ViewBag.StatusSortParm })
+        </th>
+
+        <th></th>
+    </tr>
 
 	@foreach (var item in Model)
 	{
-		<tr>
-			<td>
-				@Html.DisplayFor(modelItem => item.ProductName)
-			</td>
-			<td>
-				@Html.DisplayFor(modelItem => item.Amount)
-			</td>
-			<td>
-				@Html.EnumDisplayNameFor(item.Status)
-				@*@Html.DisplayFor(modelItem => item.Status)*@
-			</td>
-			<td>
-				@Html.DisplayFor(modelItem => item.BoughtBy)
-			</td>
-			<td>
-				@Html.ActionLink("Wijzig", "Edit", new { id = item.Id }) |
-				@*@Html.ActionLink("Details", "Details", new { id = item.Id }) |*@
-				@Html.ActionLink("Verwijder", "Delete", new { id = item.Id })
-			</td>
-		</tr>
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.ProductName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Amount)
+        </td>
+        <td>
+            @Html.EnumDisplayNameFor(item.Status)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.BoughtBy)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Debt)
+        </td>
+        <td>
+            @Html.ActionLink("Wijzig", "Edit", new { id = item.Id }) |
+            @*@Html.ActionLink("Details", "Details", new { id = item.Id }) |*@
+            @Html.ActionLink("Verwijder", "Delete", new { id = item.Id })
+        </td>
+    </tr>
 	}
 
 </table>

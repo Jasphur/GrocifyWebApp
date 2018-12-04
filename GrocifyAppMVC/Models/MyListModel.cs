@@ -11,17 +11,16 @@ namespace GrocifyAppMVC.Models
     {
         public int Id { get; set; }
 
-        [Display(Name = "Productnaam")]
         public string ProductName { get; set; }
 
-        [Display(Name = "Hoeveelheid")]
         public int Amount { get; set; }
 
         public Status Status { get; set; }
 
         public string Name { get; set; }
 
-        [Display(Name = "Gehaald door")]
         public string BoughtBy { get; set; }
+
+       public decimal Debt { get; set; }
     }
 }

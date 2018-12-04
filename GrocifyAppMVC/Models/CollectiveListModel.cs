@@ -22,9 +22,10 @@ namespace GrocifyAppMVC.Models
 
         public Status Status { get; set; }
 
+        [Display(Name = "Gemaakte kosten")]
+        public decimal Debt { get; set; }
+
         [Display(Name = "Gehaald door")]
         public string BoughtBy { get; set; }
-
-        public virtual IEnumerable<SelectListItem> UserNameDrop { get; set; }
     }
 }

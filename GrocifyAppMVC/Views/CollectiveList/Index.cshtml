@@ -1,12 +1,12 @@
-﻿@*@model IEnumerable<GrocifyAppMVC.Models.Product>*@
-@model PagedList.IPagedList<GrocifyAppMVC.Models.CollectiveListModel>
+﻿@model PagedList.IPagedList<GrocifyAppMVC.Models.CollectiveListModel>
 @using PagedList.Mvc;
-
+@using GrocifyAppMVC.Controllers;
 
 
 @{
 	ViewBag.Title = "Index";
 }
+
 
 <h2>Publieke lijst</h2>
 
@@ -39,10 +39,6 @@
 		<td>
 			@Html.DisplayFor(modelItem => item.BoughtBy)
 		</td>
-		@*<td>
-			<input type="button" onclick="Javascript:ChangeBoughtStatus()" value="Gehaald" class="CollectiveListController" />
-		</td>*@
-
 		<td>
 			@Html.ActionLink("Wijzig", "Edit", new { id = item.Id})
 		</td>

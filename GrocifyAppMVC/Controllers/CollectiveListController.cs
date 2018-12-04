@@ -22,7 +22,7 @@ namespace GrocifyAppMVC.Controllers
 
 		public ActionResult UserNameDrop()
 		{
-            var items = db.Users.ToList();
+			var items = db.Users.ToList();
 			if (items != null)
 			{
 				ViewBag.UserNameDrop = items;
@@ -31,21 +31,18 @@ namespace GrocifyAppMVC.Controllers
 		}
 
         [HttpPost]
-        public ActionResult ChangeBoughtStatus()
+        public ActionResult ChangeBoughtStatus(string button)
         {
             Product product = new Product();
 
-            if (product.Status != Status.Bought)
-            {
-                product.Status = Status.Bought;
-                return RedirectToAction("Index");
-            }
-            return View();
+            product.Status = Status.Bought;
+            return RedirectToAction("Index");
+
         }
 
-        // GET: CollectiveList
+		// GET: CollectiveList
 
-        public ViewResult UserNames()
+		public ViewResult UserNames()
 		{
 			ViewBag.UserNameDrop = new SelectList(db.Users.ToList(), "Id", "UserName");
 			return View();
@@ -55,11 +52,11 @@ namespace GrocifyAppMVC.Controllers
 		public ViewResult Index(string sortOrder, string currentFilter, string searchString, int? page)
 		{
 			ViewBag.CurrentSort = sortOrder;
-            ViewBag.ProductNameSortParm = String.IsNullOrEmpty(sortOrder) ? "Productname_desc" : "";
-            ViewBag.AmountSortParm = sortOrder == "Amount" ? "amount_desc" : "Amount";
-            ViewBag.NameSortParm = sortOrder == "Name" ? "name_desc" : "Name";
+			ViewBag.ProductNameSortParm = String.IsNullOrEmpty(sortOrder) ? "Productname_desc" : "";
+			ViewBag.AmountSortParm = sortOrder == "Amount" ? "amount_desc" : "Amount";
+			ViewBag.NameSortParm = sortOrder == "Name" ? "name_desc" : "Name";
 
-            if (searchString != null)
+			if (searchString != null)
 			{
 				page = 1;
 			}
@@ -89,29 +86,29 @@ namespace GrocifyAppMVC.Controllers
 			{
 				Model = Model.Where(s => s.ProductName.Contains(searchString));
 			}
-            switch (sortOrder)
-            {
-                case "Productname_desc":
-                    Model = Model.OrderByDescending(s => s.ProductName);
-                    break;
-                case "Amount":
-                    Model = Model.OrderBy(s => s.Amount);
-                    break;
-                case "amount_desc":
-                    Model = Model.OrderByDescending(s => s.Amount);
-                    break;
-                case "Name":
-                    Model = Model.OrderBy(s => s.Name);
-                    break;
-                case "name_desc":
-                    Model = Model.OrderByDescending(s => s.Name);
-                    break;
-                default:
-                    Model = Model.OrderBy(s => s.ProductName);
-                    break;
-            }
+			switch (sortOrder)
+			{
+				case "Productname_desc":
+					Model = Model.OrderByDescending(s => s.ProductName);
+					break;
+				case "Amount":
+					Model = Model.OrderBy(s => s.Amount);
+					break;
+				case "amount_desc":
+					Model = Model.OrderByDescending(s => s.Amount);
+					break;
+				case "Name":
+					Model = Model.OrderBy(s => s.Name);
+					break;
+				case "name_desc":
+					Model = Model.OrderByDescending(s => s.Name);
+					break;
+				default:
+					Model = Model.OrderBy(s => s.ProductName);
+					break;
+			}
 
-            int pageSize = 10;
+			int pageSize = 10;
 			int pageNumber = (page ?? 1);
 
 			ViewBag.OnePageOfUsers = searchString;
@@ -123,18 +120,18 @@ namespace GrocifyAppMVC.Controllers
 
 		// GET: CollectiveList/Details/5
 		public ActionResult Details(int? id)
-        {
-            if (id == null)
-            {
-                return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
-            }
-            Product product = db.Products.Find(id);
-            if (product == null)
-            {
-                return HttpNotFound();
-            }
-            return View(product);
-        }
+		{
+			if (id == null)
+			{
+				return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
+			}
+			Product product = db.Products.Find(id);
+			if (product == null)
+			{
+				return HttpNotFound();
+			}
+			return View(product);
+		}
 
 		// GET: CollectiveList/Create
 		public ActionResult Create()
@@ -179,44 +176,43 @@ namespace GrocifyAppMVC.Controllers
 		// more details see https://go.microsoft.com/fwlink/?LinkId=317598.
 
 		string mydocpath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-		private int pageIndex;
 
 		[HttpPost]
 		[ValidateAntiForgeryToken]
-		public ActionResult Edit([Bind(Include = "Id,ProductName,Amount,Status,Name,BoughtBy")] Product product)
+		public ActionResult Edit([Bind(Include = "Id,ProductName,Amount,Status,Name,BoughtBy,Debt")] Product product)
 		{
 			if (ModelState.IsValid)
 			{
-                product.ProductName = product.ProductName;
-                product.Amount = product.Amount;
+				product.ProductName = product.ProductName;
+				product.Amount = product.Amount;
 				product.Name = product.Name;
 				product.BoughtBy = User.Identity.Name;
 				db.Entry(product).State = EntityState.Modified;
 
-                if (product.Status == Status.Bought)
-                {
+				if (product.Status == Status.Bought)
+				{
 
-                    if (product.Status == Status.Bought)
-                    {
-                        // Genereert 1 keer een file en voegt elke keer een melding toe
-                        using (StreamWriter outputFile = new StreamWriter(Path.Combine(mydocpath, "GrocifyLogMelding.txt"), true))
-                        {
-                            outputFile.WriteLine($"{product.BoughtBy} heeft {(product.ProductName).ToLower()} voor je ({product.Name}) gekocht!" + " " + DateTime.Now);
-                        }
+					if (product.Status == Status.Bought)
+					{
+						// Genereert 1 keer een file en voegt elke keer een melding toe
+						using (StreamWriter outputFile = new StreamWriter(Path.Combine(mydocpath, "GrocifyLogMelding.txt"), true))
+						{
+							outputFile.WriteLine($"{product.BoughtBy} heeft {(product.ProductName).ToLower()} voor je ({product.Name}) gekocht!" + " " + DateTime.Now);
+						}
 
-                        // Genereert elke keer 1 file met 1 melding
-                        using (StreamWriter writer = new StreamWriter(Path.Combine(mydocpath, "GrocifyMelding.txt")))
-                        {
-                            writer.WriteLine($"{product.BoughtBy} heeft {(product.ProductName).ToLower()} voor je ({product.Name}) gekocht!" + " " + DateTime.Now);
-                        }
-                    }
+						// Genereert elke keer 1 file met 1 melding
+						using (StreamWriter writer = new StreamWriter(Path.Combine(mydocpath, "GrocifyMelding.txt")))
+						{
+							writer.WriteLine($"{product.BoughtBy} heeft {(product.ProductName).ToLower()} voor je ({product.Name}) gekocht!" + " " + DateTime.Now);
+						}
+					}
 
-                    db.SaveChanges();
-                    return RedirectToAction("Index");
-                }
-                else
-                    MessageBox.Show($"Zet de status op {Status.Bought.GetDisplayName().ToLower()}");
-            }
+					db.SaveChanges();
+					return RedirectToAction("Index");
+				}
+				else
+					MessageBox.Show($"Zet de status op {Status.Bought.GetDisplayName().ToLower()}");
+			}
 			return View(product);
 		}
 
