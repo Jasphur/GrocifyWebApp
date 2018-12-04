@@ -367,5 +367,6 @@ C:\Projects\Grocify GitHub\GrocifyAppMVCSolution\GrocifyWebApp\GrocifyAppMVC\obj
 C:\Projects\Grocify GitHub\GrocifyAppMVCSolution\GrocifyWebApp\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.csproj.CopyComplete
 C:\Projects\Grocify GitHub\GrocifyAppMVCSolution\GrocifyWebApp\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.dll
 C:\Projects\Grocify GitHub\GrocifyAppMVCSolution\GrocifyWebApp\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.pdb
-C:\Projects\Grocify GitHub\GrocifyAppMVCSolution\GrocifyWebApp\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.Migrations.Debt.resources
+C:\Projects\Grocify GitHub\GrocifyAppMVCSolution\GrocifyWebApp\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.csprojAssemblyReference.cache
+C:\Projects\Grocify GitHub\GrocifyAppMVCSolution\GrocifyWebApp\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.Migrations.first.resources
 C:\Projects\Grocify GitHub\GrocifyAppMVCSolution\GrocifyWebApp\GrocifyAppMVC\obj\Debug\GrocifyAppMVC.csproj.GenerateResource.cache

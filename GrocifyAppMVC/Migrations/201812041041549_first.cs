@@ -3,7 +3,7 @@ namespace GrocifyAppMVC.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class HistoryProducts : DbMigration
+    public partial class first : DbMigration
     {
         public override void Up()
         {

@@ -214,9 +214,9 @@
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MyListListController.cs" />
     <Compile Include="Extensions\EnumExtension.cs" />
-    <Compile Include="Migrations\201812040942104_Debt.cs" />
-    <Compile Include="Migrations\201812040942104_Debt.Designer.cs">
-      <DependentUpon>201812040942104_Debt.cs</DependentUpon>
+    <Compile Include="Migrations\201812041041549_first.cs" />
+    <Compile Include="Migrations\201812041041549_first.Designer.cs">
+      <DependentUpon>201812041041549_first.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\HistoryProductsModel.cs" />
@@ -343,8 +343,8 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201812040942104_Debt.resx">
-      <DependentUpon>201812040942104_Debt.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201812041041549_first.resx">
+      <DependentUpon>201812041041549_first.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
