@@ -24,7 +24,10 @@ namespace GrocifyAppMVC.Models
 
     public enum HiddenStatus
     {
+        [Display(Name = "Actief")]
         Active = 1,
+
+        [Display(Name = "Gearchiveerd")]
         Archived
     }
 }

@@ -22,6 +22,7 @@
                 <ul class="nav navbar-nav">
                     <li>@Html.ActionLink("Mijn lijst", "Index", "MyListList", new { area = "" }, null)</li>
                     <li>@Html.ActionLink("Publieke lijst", "Index", "CollectiveList", new { area = "" }, null)</li>
+                    <li>@Html.ActionLink("Bestelgeschiedenis", "Index", "History", new { area = "" }, null)</li>
                     <li>@Html.ActionLink("Mijn gegevens", "Index", "Manage", new { area = "" }, null)</li>
                 </ul>
                 @Html.Partial("_LoginPartial")

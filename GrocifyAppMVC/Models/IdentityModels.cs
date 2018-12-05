@@ -32,8 +32,8 @@ namespace GrocifyAppMVC.Models
 		}
 
 		public DbSet<Product> Products { get; set; }
-		public DbSet<HistoryProductsModel> HistoryProductsModels { get; set; }
-	}
+        //public DbSet<HistoryModel> HistoryModels { get; set; }
+    }
 
 	
 }

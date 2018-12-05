@@ -25,7 +25,7 @@
             @Html.ActionLink("Gehaald door", "Index", new { sortOrder = ViewBag.StatusSortParm })
         </th>
         <th>
-            @Html.ActionLink("Schuldbedrag", "Index", new { sortOrder = ViewBag.StatusSortParm })
+            @Html.ActionLink("Schuldbedrag", "Index", new { sortOrder = ViewBag.DebtSortParm })
         </th>
 
         <th></th>
@@ -47,7 +47,7 @@
             @Html.DisplayFor(modelItem => item.BoughtBy)
         </td>
         <td>
-            @Html.DisplayFor(modelItem => item.Debt)
+            @Html.DisplayFor(modelItem => item.DebtEuro)
         </td>
         <td>
             @Html.ActionLink("Wijzig", "Edit", new { id = item.Id }) |

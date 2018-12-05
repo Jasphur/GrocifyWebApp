@@ -209,7 +209,7 @@
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CollectiveListController.cs" />
-    <Compile Include="Controllers\HistoryProductsController.cs" />
+    <Compile Include="Controllers\HistoryController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\MyListListController.cs" />
@@ -218,10 +218,25 @@
     <Compile Include="Migrations\201812041041549_first.Designer.cs">
       <DependentUpon>201812041041549_first.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201812041211368_second.cs" />
+    <Compile Include="Migrations\201812041211368_second.Designer.cs">
+      <DependentUpon>201812041211368_second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812041404102_third.cs" />
+    <Compile Include="Migrations\201812041404102_third.Designer.cs">
+      <DependentUpon>201812041404102_third.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812041502065_fourth.cs" />
+    <Compile Include="Migrations\201812041502065_fourth.Designer.cs">
+      <DependentUpon>201812041502065_fourth.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201812051125056_fifth.cs" />
+    <Compile Include="Migrations\201812051125056_fifth.Designer.cs">
+      <DependentUpon>201812051125056_fifth.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
-    <Compile Include="Models\HistoryProductsModel.cs" />
+    <Compile Include="Models\HistoryModel.cs" />
     <Compile Include="Models\ErrorMessages.cs" />
-    <Compile Include="Models\ListViewModel.cs" />
     <Compile Include="Models\MyListModel.cs" />
     <Compile Include="Controllers\ProductsController.cs" />
     <Compile Include="Global.asax.cs">
@@ -317,11 +332,11 @@
     <Content Include="Views\Shared\_PagingPartial.cshtml" />
     <Content Include="Views\CollectiveList\UserNames.cshtml" />
     <Content Include="Views\Manage\ChangeEmail.cshtml" />
-    <Content Include="Views\HistoryProducts\Create.cshtml" />
-    <Content Include="Views\HistoryProducts\Delete.cshtml" />
-    <Content Include="Views\HistoryProducts\Details.cshtml" />
-    <Content Include="Views\HistoryProducts\Edit.cshtml" />
-    <Content Include="Views\HistoryProducts\Index.cshtml" />
+    <Content Include="Views\History\Create.cshtml" />
+    <Content Include="Views\History\Delete.cshtml" />
+    <Content Include="Views\History\Details.cshtml" />
+    <Content Include="Views\History\Edit.cshtml" />
+    <Content Include="Views\History\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -345,6 +360,21 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201812041041549_first.resx">
       <DependentUpon>201812041041549_first.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812041211368_second.resx">
+      <DependentUpon>201812041211368_second.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812041404102_third.resx">
+      <DependentUpon>201812041404102_third.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812041502065_fourth.resx">
+      <DependentUpon>201812041502065_fourth.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201812051125056_fifth.resx">
+      <DependentUpon>201812051125056_fifth.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -24,9 +24,9 @@ namespace GrocifyAppMVC.Controllers
 			ViewBag.AmountSortParm = sortOrder == "Amount" ? "amount_desc" : "Amount";
 			ViewBag.StatusSortParm = sortOrder == "Status" ? "status_desc" : "Status";
 			ViewBag.BoughtBySortParm = sortOrder == "BoughtBy" ? "boughtBy_desc" : "BoughtBy";
-			ViewBag.BoughtBySortParm = sortOrder == "Debt" ? "debt_desc" : "Debt";
+            ViewBag.DebtSortParm = sortOrder == "Debt" ? "debt_desc" : "Debt";
 
-			if (searchString != null)
+            if (searchString != null)
 			{
 				page = 1;
 			}
@@ -225,8 +225,13 @@ namespace GrocifyAppMVC.Controllers
 		[ValidateAntiForgeryToken]
 		public ActionResult DeleteConfirmed(int id)
 		{
-			Product product = db.Products.Find(id);
-			product.Status = (Status)5;
+            Product product = db.Products.Find(id);
+            if (product.BoughtBy == null)
+            {
+                product.BoughtBy = "Mijzelf";
+            }
+
+            product.Status = (Status)5;
 			product.HiddenStatus = HiddenStatus.Archived;
 			//db.Products.Remove(product);
 
@@ -241,13 +246,6 @@ namespace GrocifyAppMVC.Controllers
 			{
 				writer.WriteLine($"Je hebt {product.Amount} stuk(s) {(product.ProductName).ToLower()} uit je lijst verwijderd" + " " + DateTime.Now);
 			}
-
-			var Products = db.Products;
-			var HistoryProducts = db.HistoryProductsModels;
-
-			//Products.AsEnumerable()
-			//    .Where(s => s.HiddenStatus == HiddenStatus.Archived)
-			//    .CopyToDataTable(HistoryProducts, LoadOption.OverwriteChanges);
 
 			db.SaveChanges();
 			return RedirectToAction("Index");

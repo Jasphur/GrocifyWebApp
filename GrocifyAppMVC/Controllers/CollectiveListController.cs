@@ -2,15 +2,15 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
+using System.IO;
 using System.Linq;
 using System.Net;
+using System.Web;
 using System.Web.Mvc;
-using GrocifyAppMVC.Models;
-using System.IO;
-using PagedList;
 using System.Windows.Forms;
-using System.Net.Mail;
-using System.Web.Security;
+using GrocifyAppMVC.Models;
+using PagedList;
+
 
 namespace GrocifyAppMVC.Controllers
 {
@@ -19,16 +19,6 @@ namespace GrocifyAppMVC.Controllers
 	{
 
 		private ApplicationDbContext db = new ApplicationDbContext();
-
-		public ActionResult UserNameDrop()
-		{
-			var items = db.Users.ToList();
-			if (items != null)
-			{
-				ViewBag.UserNameDrop = items;
-			}
-			return View();
-		}
 
         [HttpPost]
         public ActionResult ChangeBoughtStatus(string button)
